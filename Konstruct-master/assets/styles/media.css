@@ -1,0 +1,365 @@
+@media (max-width:1200px) {
+    .container {
+        max-width: 800px;
+    }
+
+    .hero__title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .hero__desc {
+        font-size: 16px;
+    }
+
+    .card__sm-desc {
+        font-size: 22px;
+    }
+
+    .btn__title {
+        font-size: 16px;
+    }
+
+    .btn__title::before {
+        bottom: 15px;
+    }
+
+    .btn__desc {
+        line-height: 16px;
+        max-width: 370px;
+    }
+
+    .services__grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .services__card {
+        height: 370px;
+    }
+
+    .footer__grid {
+        column-gap: 50px;
+    }
+}
+
+@media (max-width:1025px) {
+    .container {
+        max-width: 600px;
+    }
+
+    .header .container {
+        max-width: 850px;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__burger {
+        display: block;
+    }
+
+    .hero__title {
+        font-size: 40px;
+    }
+
+    .hero__desc {
+        font-size: 14px;
+    }
+
+    .about__card {
+        height: 300px;
+    }
+
+    .about__title {
+        font-size: 20px;
+    }
+
+    .card__title {
+        font-size: 16px;
+    }
+
+    .card__desc {
+        margin-top: 20px;
+    }
+
+    .about__card-right {
+        grid-gap: 10px 10px;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: "card__one card__one"
+                             "card__two card__three";
+    }
+
+    .card__right-part {
+        height: 135px;
+        box-shadow: 13px 13px 28px 3px rgba(0,0,0,0.67);
+        -webkit-box-shadow: 13px 13px 28px 3px rgba(0,0,0,0.67);
+        -moz-box-shadow: 13px 13px 28px 3px rgba(0,0,0,0.67);
+    }
+
+    .card__one {
+        grid-area: card__one;
+    }
+    .card__two {
+        grid-area: card__two;
+    }
+    .card__three {
+        grid-area: card__three;
+    }
+
+    .btn__title {
+        line-height: 18px;
+        font-size: 12px;
+    }
+    
+    .btn__title::before {
+        bottom: 0px;
+    }
+
+    .btn__desc {
+        line-height: 14px;
+        max-width: 300px;
+    }
+
+    .btn__btn {
+        height: 40px;
+        width: 150px;
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    .services__grid {
+        row-gap: 20px;
+        grid-template-columns: none;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .services__card {
+        height: 225px;
+    }
+
+    .services__card svg {
+        margin-bottom: 5px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .services__title {
+        font-size: 14px;
+        margin: 10px 0 5px;
+    }
+
+    .end__title {
+        font-size: 27px;
+    }
+
+    .end__btn {
+        width: 150px;
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    .sunrise__title {
+        font-size: 20px;
+    }
+
+    .footer .container {
+        max-width: 850px;
+    }
+
+    .footer__grid {
+        column-gap: 50px;
+    }
+}
+
+@media (max-width:780px) {
+    .container {
+        max-width: 550px;
+    }
+
+}
+
+@media (max-width:780px) {
+    .container {
+        max-width: 500px;
+    }
+
+    .hero__title {
+        font-size: 35px;
+    }
+
+    .hero__desc {
+        font-size: 12px;
+    }
+
+    .header .container {
+        max-width: 700px;
+    }
+
+    .btn__desc {
+        line-height: 14px;
+        max-width: 280px;
+        margin-left: 20px;
+    }
+
+    .btn__title::before {
+        bottom: 15px;
+    }
+
+    .btn__btn {
+        height: 50px;
+        width: 170px;
+        line-height: 12px;
+    }
+
+    .footer {
+        height: 780px;
+    }
+
+    .footer__grid {
+        grid-template-columns: none;
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .footer__sm-desc {
+        margin-top: 20px;
+    }
+
+    .footer__desc {
+        max-width: 400px;
+        margin-bottom: 40px;
+    }
+
+    .footer__sm-logo a {
+        display: inline;
+    }
+
+    .footer__card {
+        margin: 0 auto;
+        border-bottom: 1px solid var(--red-color);
+    }
+
+    .footer__card:last-child {
+        height: 50px;
+    }
+}
+
+@media (max-width:640px) {
+    .container {
+        max-width: 440px;
+    }
+
+    .hero {
+        height: 80vh;
+    }
+
+    .header .container {
+        max-width: 540px;
+    }
+
+    .about__grid  {
+        grid-template-columns: 1fr;
+    }
+
+    .about__card-right {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: "card__one card__one card__one card__one"
+                             "card__two card__two card__three card__three"
+                             "card__two card__two card__three card__three";
+    }
+
+    .card__right-part {
+        height: 160px;
+    }
+
+    .btn {
+        margin-top: 150px;
+    }
+
+    .btn__btn {
+        display: none;
+    }
+
+    .btn__desc {
+        max-width: 400px;
+    }
+
+    .btn__title::before {
+        bottom: 0px;
+    }
+
+    .btn__sm-btn {
+        margin: 30px auto;
+        height: 50px;
+        width: 170px;
+        line-height: 12px;
+        display: block;
+    }
+
+    .sunrise {
+        height: 150px;
+    }
+
+    .sunrise__container {
+        display: inline-block;
+    }
+
+    .sunrise__title {
+        line-height: 24px;
+    }
+
+    .sunrise__input {
+        width: 200px;
+        height: 30px;
+        border-radius: 10px;
+    }
+
+    .sunrise__btn {
+        border-radius: 10px;
+        height: 30px;
+        margin-left: 20px;
+    }
+ }
+
+ @media (max-width:520px) {
+    .container {
+        max-width: 380px;
+    }
+
+    .services__card {
+        height: 275px;
+    }
+ }
+
+ @media (max-width:415px) {
+    .container {
+        max-width: 350px;
+    }
+
+    .hero__title {
+            font-size: 25px;
+        }
+    
+        .hero__desc {
+            font-size: 10px;
+        }
+
+        .hero__link {
+            font-size: 12px;
+        }
+        .sunrise {
+            height: 170px;
+        }
+
+        .sunrise__input {
+            width: 180px;
+        }
+
+        .sunrise__btn {
+            width: 150px;
+            font-size: 12px;
+            line-height: 12px;
+        }
+    }
+ 
